@@ -1,0 +1,276 @@
+/* HOME PAGE, WELCOME section */
+.welcome-left {
+    width: 50%;
+    padding-left: 195px;
+}
+
+.welcome-right {
+    width: 50%;
+}
+
+section.welcome {
+    padding-top: 100px;
+    width: 100%;
+    background: linear-gradient(to right, var(--light-blue) 0%, var(--light-blue) 50%, var(--dark-grey) 50%, var(--dark-grey) 100%);
+
+}
+
+
+.welcome .container {
+    padding: 120px 0;
+    align-items: center;
+    justify-content: center;
+    height: 795px;
+}
+
+.content-wrapper {
+    justify-content: center;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    width: 510px;
+    width: 82%;
+}
+
+.section-content h1 {
+    font-family: var(--font-playfair);
+    font-weight: 900;
+    font-size: 59px;
+    margin: 0;
+}
+
+.description {
+    font-family: var(--font-manrope);
+    color: var(--dark-grey);
+    font-size: 17px;
+}
+
+.introduction {
+    margin: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--font-blue);
+    font-style: var(--font-manrope);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 154%;
+}
+
+.section-content a {
+    text-decoration: none;
+    padding: 21px 9px;
+    width: 55%;
+    text-align: center;
+}
+
+.section-content .introduction img {
+    height: 18px;
+    padding-right: 5px;
+}
+
+.section-picture {
+    border: 8px solid #fff;
+    border-left: none;
+    position: absolute;
+    top: 197px;
+    width: 517px;
+    height: 615px;
+}
+
+.section-picture img {
+    width: 500px;
+    position: absolute;
+    top: 50px;
+    margin-left: -50px;
+    border-color: #fff;
+    box-shadow: var(--box-shadow);
+}
+
+
+/* SERVICES SECTION */
+.services .container {
+    margin: 120px auto;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.service {
+    margin: 0 50px;
+    width: 20%;
+}
+
+.service img {
+    width: 100%;
+}
+
+.service-description h2 {
+    margin: 10px 0 5px 0px;
+    font-family: var(--font-playfair);
+}
+
+.service-description p {
+    font-family: var(--font-manrope);
+    color: var(--dark-grey);
+    line-height: 165%;
+}
+
+.read-more {
+    text-transform: uppercase;
+    font-family: var(--font-manrope);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 12px 34px;
+    background-color: white;
+    color: rgba(20, 20, 20, 1);
+    border-color: var(--font-blue);
+    line-height: 125%;
+    letter-spacing: 0.5px;
+}
+
+/* ABOUT US SECTION */
+
+.about-us-section {
+    width: 100%;
+    background-color: var(--light-blue);
+}
+
+.about-us-section .container {
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+.content-left {
+    width: calc((100% - 15px) / 2);
+    padding-left: 179px;
+    height: 580px;
+}
+
+.content-wrapper {
+    width: 82%;
+}
+
+.section-title {
+    font-family: var(--font-playfair);
+    font-size: 45px;
+    margin: 0;
+}
+
+.top-content .description {
+    margin-bottom: 30px;
+    line-height: 165%;
+}
+
+.picture-right {
+    width: calc((100% - 15px) / 2);
+}
+
+.picture-wrapper {
+    background-image: url(/../brigita/images/background/background-light-blue.png);
+    background-position: 49px 0px;
+    padding-top: 37px;
+    background-repeat: no-repeat;
+}
+
+.picture-wrapper img {
+    width: 500px;
+    box-shadow: var(--box-shadow);
+}
+
+.card {
+    width: 32%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    padding: 19px 1px;
+    border: solid 1px;
+    border-color: var(--font-blue);
+}
+
+/* SECTION OUR SERVICES */
+.our-services .container {
+    padding: 120px 0px 120px 148px;
+}
+
+.our-services .container .title {
+    text-align: center;
+}
+
+.title h2.section-title {
+    padding: 13px 0px 27px 0;
+    margin: 0px 356px;
+}
+
+.services-image {
+    width: 50%;
+}
+
+.price-list {
+    width: 50%;
+}
+
+.one-service p {
+    font-family: var(--font-playfair);
+    font-size: 25px;
+    margin: 0;
+}
+
+.one-service span {
+    font-family: var(--font-manrope);
+    font-size: 20px;
+}
+
+.dot {
+    border-bottom: dotted 3px black;
+    width: 287px;
+    float: left;
+    position: relative;
+    display: block;
+    height: 29px;
+    margin: 0 15px 0 5px;
+}
+
+.service-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 20px 0px;
+}
+
+.price {
+    font-family: var(--font-playfair);
+    font-size: 25px;
+}
+
+.from {
+    margin-right: 10px;
+    font-family: var(--font-manrope);
+}
+
+.body-massage .dot {
+    width: 212px;
+}
+
+.geothermal .dot {
+    width: 241px;
+}
+
+.image-wrapper {
+    width: 50%;
+}
+
+img.services-image {
+    width: 100%;
+}

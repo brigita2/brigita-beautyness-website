@@ -1,0 +1,11 @@
+:root {
+    --font-manrope: 'Manrope', sans-serif;
+    --font-playfair: 'Playfair Display', serif;
+    --light-blue: rgba(235, 243, 245, 1);
+    --button-blue: rgba(122, 156, 165, 1);
+    --dark-grey: rgba(30, 44, 48, 1);
+    --navDarkGrey: rgba(17, 30, 34, 1);
+    --line-light-blue: rgba(155, 183, 191, 1);
+    --font-blue: rgba(92, 134, 146, 1);
+    --box-shadow: 0 16px 53px 0 rgb(0 0 0 / 44%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
