@@ -1,5 +1,5 @@
 <header class="site-header">
-    <div class="container flex-container">
+    <div class="flex-container">
         <!-- header left side -->
         <div class="logo-wrapper flex-container">
             <div>

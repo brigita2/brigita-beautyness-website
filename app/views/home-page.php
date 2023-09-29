@@ -109,7 +109,7 @@
         </div>
         <div class="services-top flex-container">
             <div class="image-wrapper">
-                <img class="services-image" src="/../brigita/images/services/relax.png" alt="Two girls relaxing at spa">
+                <img class="services-image" src="/../brigita/images/services/relax.jpg" alt="Two girls relaxing at spa">
             </div>
             <div class="price-list">
                 <div class="one-service">
@@ -193,9 +193,51 @@
                 <button class="read-more">Get an appointment</button>
             </div>
             <div class="image-wrapper">
-                <img class="services-image" src="/../brigita/images/services/face-mask.png" alt="Two girls relaxing at spa">
+                <img class="services-image" src="/../brigita/images/services/face-mask.jpg" alt="Two girls relaxing at spa">
             </div>
 
 
         </div>
+</section>
+<section class="testimonials">
+    <div class="container">
+        <div class="title">
+            <span class="introduction">Testimonials</span>
+            <h2 class="section-title">What our Customers says...</h2>
+        </div>
+        <div class="testimonials-cards flex-container">
+            <div class="testimonial-card flex-container">
+                <div class="description-wrapper">
+                    <p class="description">“ It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English “</p>
+                </div>
+                <div class="author-info flex-container">
+                    <img class="testimonial-author-image" src="/../brigita/images/home/testimonial-men.jpg" alt="men">
+                    <div class="author-info-wrapper flex-container">
+                        <img class="rating" src="/../brigita/images/home/stars.svg" alt="reviews stars">
+                        <span class="testimonial-author-name">James Williams</span>
+                        <span class="country">United States</span>
+                    </div>
+                    <div class="huts">
+                        <img src="/../brigita/images/home/huts.svg" alt="huts">
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card flex-container">
+                <div class="description-wrapper">
+                    <p class="description">“ It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English “</p>
+                </div>
+                <div class="author-info flex-container">
+                    <img class="testimonial-author-image" src="/../brigita/images/home/testimonial-women.png" alt="women">
+                    <div class="author-info-wrapper flex-container">
+                        <img class="rating" src="/../brigita/images/home/stars.svg" alt="reviews stars">
+                        <span class="testimonial-author-name">Lieo Jessica</span>
+                        <span class="country">United Kingdom</span>
+                    </div>
+                    <div class="huts">
+                        <img src="/../brigita/images/home/huts.svg" alt="huts">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

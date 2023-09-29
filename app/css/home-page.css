@@ -1,7 +1,6 @@
 /* HOME PAGE, WELCOME section */
 .welcome-left {
     width: 50%;
-    padding-left: 195px;
 }
 
 .welcome-right {
@@ -97,11 +96,11 @@ section.welcome {
     justify-content: center;
     align-items: center;
     background-color: white;
+    gap: 15px;
 }
 
 .service {
-    margin: 0 50px;
-    width: 20%;
+    width: calc((100% - 30px) / 3);
 }
 
 .service img {
@@ -130,6 +129,13 @@ section.welcome {
     border-color: var(--font-blue);
     line-height: 125%;
     letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.read-more:hover {
+    color: white;
+    background-color: var(--button-blue);
+    transition: background-color 1s;
 }
 
 /* ABOUT US SECTION */
@@ -147,7 +153,6 @@ section.welcome {
 
 .content-left {
     width: calc((100% - 15px) / 2);
-    padding-left: 179px;
     height: 580px;
 }
 
@@ -172,13 +177,13 @@ section.welcome {
 
 .picture-wrapper {
     background-image: url(/../brigita/images/background/background-light-blue.png);
-    background-position: 49px 0px;
+    background-position: 105px 0px;
     padding-top: 37px;
     background-repeat: no-repeat;
 }
 
 .picture-wrapper img {
-    width: 500px;
+    width: 90%;
     box-shadow: var(--box-shadow);
 }
 
@@ -198,15 +203,15 @@ section.welcome {
 }
 
 /* SECTION OUR SERVICES */
-.our-services .container {
-    padding: 120px 0px 120px 148px;
+section.our-services .container {
+    padding: 120px 0px;
 }
 
 .our-services .container .title {
     text-align: center;
 }
 
-.title h2.section-title {
+.our-services .title h2.section-title {
     padding: 13px 0px 27px 0;
     margin: 0px 356px;
 }
@@ -228,6 +233,8 @@ section.welcome {
 .one-service span {
     font-family: var(--font-manrope);
     font-size: 20px;
+    display: block;
+    margin-bottom: 30px;
 }
 
 .dot {
@@ -273,4 +280,100 @@ section.welcome {
 
 img.services-image {
     width: 100%;
+}
+
+.one-service {
+    border-bottom: solid 1px;
+    border-bottom-color: var(--line-light-blue);
+    width: 570px;
+    padding: 8px 0px 0px 0px;
+}
+
+.price-list .read-more {
+    cursor: pointer;
+    border-color: var(--button-blue);
+    margin-top: 30px;
+    padding: 20px 38px;
+}
+
+.services-top .price-list {
+    padding-left: 25px;
+}
+
+.services-bottom .price-list {
+    padding-right: 25px;
+}
+
+.services-image {
+    box-shadow: var(--box-shadow);
+}
+
+/* TESTIMONIALS SECTION */
+.testimonials {
+    background-color: var(--light-blue);
+}
+
+.testimonials .title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonials .container {
+    padding: 120px 0;
+}
+
+.testimonials-cards.flex-container {
+    justify-content: center;
+    gap: 30px;
+}
+
+.testimonial-card {
+    width: calc((100% - 30px) / 2);
+    background-color: white;
+    flex-direction: column;
+}
+
+.description-wrapper {
+    width: 100%;
+    padding: 40px 70px 40px 40px;
+}
+
+.author-info {
+    width: 100%;
+    padding: 20px 35px;
+    background-color: var(--dark-grey);
+    color: white;
+    align-items: center;
+    position: relative;
+}
+
+.author-info-wrapper {
+    width: 30%;
+    flex-direction: column;
+}
+
+img.testimonial-author-image {
+    margin-right: 20px;
+    border: solid white;
+}
+
+.huts {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+}
+
+span.testimonial-author-name {
+    font-family: var(--font-playfair);
+    font-size: 20px;
+    line-height: 160%;
+}
+
+img.rating {
+    width: 55%;
+}
+
+span.country {
+    font-family: var(--font-manrope);
+    font-size: 14px;
 }
