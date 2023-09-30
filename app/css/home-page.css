@@ -44,7 +44,7 @@ section.welcome {
 
 .description {
     font-family: var(--font-manrope);
-    color: var(--dark-grey);
+    color: var(--dark-text);
     font-size: 17px;
 }
 
@@ -235,6 +235,7 @@ section.our-services .container {
     font-size: 20px;
     display: block;
     margin-bottom: 30px;
+    color: var(--dark-text);
 }
 
 .dot {
@@ -376,4 +377,101 @@ img.rating {
 span.country {
     font-family: var(--font-manrope);
     font-size: 14px;
+}
+
+/* FORM SECTION */
+.input-features {
+    background-color: white;
+    background-image: url(/../brigita/app/logo/User.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+
+/* BENEFITS SECTION */
+.benefits .container {
+    padding: 120px 0;
+}
+
+.benefits .title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.benefits-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 22px 110px;
+}
+
+.benefit h3 {
+    font-size: 23px;
+    line-height: 120%;
+    font-family: var(--font-playfair);
+}
+
+.benefit p {
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    line-height: 165%;
+    letter-spacing: 2%;
+    color: var(--dark-text);
+}
+
+/* OUR BLOG SECTION */
+.our-blog .container {
+    padding: 120px 0;
+}
+
+.our-blog .title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.our-blog-wrapper {
+    gap: 30px;
+}
+
+.our-blog img {
+    width: 100%;
+}
+
+.blog-wrapper {
+    gap: 40px;
+}
+
+.blog {
+    width: calc((100% - 80px) / 3);
+    background-color: var(--light-blue);
+}
+
+.blog .content-wrapper {
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.date-wrapper {
+    justify-content: space-between;
+}
+
+.date-wrapper .date,
+.date-wrapper .author {
+    font-family: var(--font-manrope);
+    font-size: 13px;
+    text-transform: uppercase;
+    color: var(--font-blue);
+}
+
+.content-wrapper h3 {
+    font-family: var(--font-playfair);
+    font-size: 20px;
+    line-height: 140%;
+    margin-top: 6px;
+}
+
+.content-wrapper p {
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: 2%;
 }

@@ -65,6 +65,7 @@
         </div>
     </div>
 </section>
+<!-- ABOUT US SECTION -->
 <section class="about-us-section">
     <div class="container flex-container">
         <div class="content-left">
@@ -195,10 +196,9 @@
             <div class="image-wrapper">
                 <img class="services-image" src="/../brigita/images/services/face-mask.jpg" alt="Two girls relaxing at spa">
             </div>
-
-
         </div>
 </section>
+<!-- TESTIMONIALS SECTION -->
 <section class="testimonials">
     <div class="container">
         <div class="title">
@@ -239,5 +239,144 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<!-- BENEFITS SECTION -->
+<section class="benefits">
+    <div class="container">
+        <div class="title">
+            <span class="introduction">Our Awesome Benefits</span>
+            <h2 class="section-title">Actually what you’ll get from</h2>
+        </div>
+        <div class="benefits-wrapper">
+            <div class="benefit">
+                <img src="/../brigita/app/logo/Icons.png" alt="check mark">
+                <h3>Optimised Energy Efficiency</h3>
+                <p>The point of using Lorem Ipsum is that using making it look like readable.</p>
+            </div>
+            <div class="benefit">
+                <img src="/../brigita/app/logo/Icons.png" alt="check mark">
+                <h3>Multi-faceted Water Filtration</h3>
+                <p>The point of using Lorem Ipsum is that using making it look like readable.</p>
+            </div>
+            <div class="benefit">
+                <img src="/../brigita/app/logo/Icons.png" alt="check mark">
+                <h3>Uncompromising Quality and Durability</h3>
+                <p>The point of using Lorem Ipsum is that using making it look like readable.</p>
+            </div>
+            <div class="benefit">
+                <img src="/../brigita/app/logo/Icons.png" alt="check mark">
+                <h3>An Ultra-Pampering Spa Experience</h3>
+                <p>The point of using Lorem Ipsum is that using making it look like readable.</p>
+            </div>
+            <div class="benefit">
+                <img src="/../brigita/app/logo/Icons.png" alt="check mark">
+                <h3>Easy Care for Unparalleled Enjoyment</h3>
+                <p>The point of using Lorem Ipsum is that using making it look like readable.</p>
+            </div>
+            <div class="benefit">
+                <img src="/../brigita/app/logo/Icons.png" alt="check mark">
+                <h3>Optimised Energy Efficiency</h3>
+                <p>The point of using Lorem Ipsum is that using making it look like readable.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FORM SECTION -->
+<div class="container">
+    <div class="left-side">
+        <div class="content-wrapper">
+            <span class="introduction">Flat discount</span>
+            <h2 class="section-title">Claim upto 50% offer on the most popular services...</h2>
+            <p class="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words.</p>
+        </div>
+        <div class="discount-wrapper">
+            <div class="left">
+                <div class="contact">
+                    <div class="bubbles"></div>
+                    <div class="mail-us">
+                        <span>Mail us:</span>
+                        <a href="mailto:info@beautyness.com">info@beautyness.com</a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="bubbles"></div>
+                    <div class="mail-us">
+                        <span>Call us:</span>
+                        <a href="tel:(+22)1234568009">(+22)1234568009</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div>- Get flat -</div>
+                <div class="precent">
+                    <div>50</div>
+                    <div>%</div>
+                </div>
+                <div>Discount</div>
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <div class="container">
+            <form>
+                <p><input class="input-features" type="text" name="name" placeholder="Name" require autofocus></p>
+                <p><input class="input-features" type="email" name="email" placeholder="Email" required></p>
+                <p><input class="input-features" type="phone" name="phone" placeholder="Phone"></p>
+                <p><input class="input-features" type="text" name="service" placeholder="Service You Need"></p>
+                <p><textarea placeholder="Any Note For Us" name="message"></textarea></p>
+                <p><button name="submit" type="submit" id="service-submit">Get an appointment</button></p>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- OUR BLOG SECTION -->
+<section class="our-blog">
+    <div class="container">
+        <div class="title">
+            <span class="introduction">Our blog</span>
+            <h2 class="section-title">Latest Updates</h2>
+        </div>
+        <div class="blog-wrapper flex-container">
+            <div class="blog">
+                <img src="/../brigita/images/home/stones-therapy.png" alt="stones-therapy">
+                <div class="content-wrapper">
+                    <div class="date-wrapper flex-container">
+                        <span class="date">11TH AUGUST 2021</span>
+                        <div></div>
+                        <span class="author">BY PETER BERGSON</span>
+                    </div>
+                    <h3>The energy efficiency of the hydrotherapy or swim</h3>
+                    <p>The point of using Lorem Ipsum hiter that using making it look like others readable will get end.</p>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="/../brigita/images/home/in-water.png" alt="face in water">
+                <div class="content-wrapper">
+                    <div class="date-wrapper flex-container">
+                        <span class="date">11TH AUGUST 2021</span>
+                        <div></div>
+                        <span class="author">BY PETER BERGSON</span>
+                    </div>
+                    <h3>The energy efficiency of the hydrotherapy or swim</h3>
+                    <p>The point of using Lorem Ipsum hiter that using making it look like others readable will get end.</p>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="/../brigita/images/home/facial.png" alt="face mask">
+                <div class="content-wrapper">
+                    <div class="date-wrapper flex-container">
+                        <span class="date">11TH AUGUST 2021</span>
+                        <div></div>
+                        <span class="author">BY PETER BERGSON</span>
+                    </div>
+                    <h3>The energy efficiency of the hydrotherapy or swim</h3>
+                    <p>The point of using Lorem Ipsum hiter that using making it look like others readable will get end.</p>
+                </div>
+            </div>
+        </div>
+        <button class="read-more">Get an appointment</button>
     </div>
 </section>
