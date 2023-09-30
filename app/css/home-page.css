@@ -121,14 +121,15 @@ section.welcome {
 .read-more {
     text-transform: uppercase;
     font-family: var(--font-manrope);
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 800;
     padding: 12px 34px;
     background-color: white;
     color: rgba(20, 20, 20, 1);
+    border: solid 3px;
     border-color: var(--font-blue);
     line-height: 125%;
-    letter-spacing: 0.5px;
+    letter-spacing: 2px;
     cursor: pointer;
 }
 
@@ -379,14 +380,193 @@ span.country {
     font-size: 14px;
 }
 
-/* FORM SECTION */
-.input-features {
-    background-color: white;
-    background-image: url(/../brigita/app/logo/User.png);
-    background-repeat: no-repeat;
-    background-position: 10px 10px;
+/* FORM SECTION-left side */
+section.form-section {
+    background-color: var(--light-blue);
 }
 
+.form-section .container {
+    gap: 100px;
+    padding: 120px 0;
+    align-items: center;
+}
+
+.form-section .left-side,
+.form-section .form {
+    width: 50%;
+}
+
+.form-section .left-side .content-wrapper {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.discount-wrapper {
+    border: solid 1px;
+    border-color: var(--border-blue);
+    background-color: white;
+    width: 85%;
+}
+
+.discount-wrapper .right {
+    background-color: var(--dark-grey);
+    color: white;
+    width: 35%;
+}
+
+.discount-wrapper .left {
+    width: 65%;
+    padding: 20px 23px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.bubbles {
+    margin-bottom: 10px;
+}
+
+.bubbles img {
+    margin-right: 10px;
+}
+
+.mail-us {
+    text-align: center;
+}
+
+.mail-us a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-manrope);
+}
+
+.bubbles span {
+    font-family: var(--font-manrope);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.percent {
+    align-items: flex-end;
+}
+
+.right {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-flat {
+    font-family: var(--font-manrope);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 175%;
+    letter-spacing: 2px;
+}
+
+.number {
+    font-family: var(--font-manrope);
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.number-percent {
+    font-size: 30px;
+}
+
+.discount {
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    line-height: 175%;
+    letter-spacing: 2px;
+}
+
+/* FORM SECTION-right side*/
+.form {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 667px;
+    box-shadow: 0 9px 34px 0 rgb(0 0 0 / 2%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.form-features {
+    width: 75%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-features p {
+    width: 100%;
+}
+
+.input-features {
+    width: 100%;
+    padding: 17px 0px 17px 49px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    border-color: var(--border-blue);
+    border-top-color: var(--border-blue);
+    font-size: 18px;
+    color: var(--dark-text);
+    font-family: var(--font-manrope);
+    line-height: 160%;
+}
+
+.input-features:focus {
+    background-color: var(--light-blue);
+    border-color: var(--font-blue);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+
+.input-features::placeholder {
+    color: var(--dark-text);
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.input-name {
+    background-image: url(/../brigita/app/logo/User.png);
+}
+
+.input-email {
+    background-image: url(/../brigita//app/logo/mail.png);
+}
+
+.input-phone {
+    background-image: url(/../brigita//app/logo/phone.png);
+}
+
+.input-services {
+    background-image: url(/../brigita//app/logo/service.png);
+}
+
+.input-note {
+    background-image: url(/../brigita//app/logo/edit.png);
+    height: 136px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.button-wrapper button {
+    padding: 23px;
+}
 
 /* BENEFITS SECTION */
 .benefits .container {
@@ -421,6 +601,8 @@ span.country {
 /* OUR BLOG SECTION */
 .our-blog .container {
     padding: 120px 0;
+    flex-direction: column;
+    align-items: center;
 }
 
 .our-blog .title {
@@ -434,6 +616,12 @@ span.country {
 
 .our-blog img {
     width: 100%;
+}
+
+.our-blog button {
+    width: 250px;
+    padding: 21px 4px;
+    margin-top: 55px;
 }
 
 .blog-wrapper {

@@ -283,58 +283,63 @@
     </div>
 </section>
 <!-- FORM SECTION -->
-<div class="container">
-    <div class="left-side">
-        <div class="content-wrapper">
-            <span class="introduction">Flat discount</span>
-            <h2 class="section-title">Claim upto 50% offer on the most popular services...</h2>
-            <p class="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words.</p>
-        </div>
-        <div class="discount-wrapper">
-            <div class="left">
-                <div class="contact">
-                    <div class="bubbles"></div>
-                    <div class="mail-us">
-                        <span>Mail us:</span>
-                        <a href="mailto:info@beautyness.com">info@beautyness.com</a>
+<section class="form-section">
+    <div class="container flex-container">
+        <div class="left-side">
+            <div class="content-wrapper">
+                <span class="introduction">Flat discount</span>
+                <h2 class="section-title">Claim upto 50% offer on the most popular services...</h2>
+                <p class="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words.</p>
+            </div>
+            <div class="discount-wrapper flex-container">
+                <div class="left flex-container">
+                    <div class="contact">
+                        <div class="bubbles">
+                            <img src="/../brigita/app/logo/pattern.svg" alt="three bubbles">
+                            <span>Mail us :</span>
+                        </div>
+                        <div class="mail-us">
+                            <a href="mailto:info@beautyness.com">info@beautyness.com</a>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="bubbles">
+                            <img src="/../brigita/app/logo/pattern.svg" alt="three bubbles">
+                            <span>Call us :</span>
+                        </div>
+                        <div class="mail-us">
+                            <a href="tel:(+22)1234568009">(+22)1234568009</a>
+                        </div>
                     </div>
                 </div>
-                <div class="contact">
-                    <div class="bubbles"></div>
-                    <div class="mail-us">
-                        <span>Call us:</span>
-                        <a href="tel:(+22)1234568009">(+22)1234568009</a>
+                <div class="right flex-container">
+                    <div class="get-flat">- Get flat -</div>
+                    <div class="percent flex-container">
+                        <div class="number">50</div>
+                        <div class="number-percent">%</div>
                     </div>
+                    <div class="discount">Discount</div>
                 </div>
-            </div>
-            <div class="right">
-                <div>- Get flat -</div>
-                <div class="precent">
-                    <div>50</div>
-                    <div>%</div>
-                </div>
-                <div>Discount</div>
             </div>
         </div>
-    </div>
-    <div class="form">
-        <div class="container">
-            <form>
-                <p><input class="input-features" type="text" name="name" placeholder="Name" require autofocus></p>
-                <p><input class="input-features" type="email" name="email" placeholder="Email" required></p>
-                <p><input class="input-features" type="phone" name="phone" placeholder="Phone"></p>
-                <p><input class="input-features" type="text" name="service" placeholder="Service You Need"></p>
-                <p><textarea placeholder="Any Note For Us" name="message"></textarea></p>
-                <p><button name="submit" type="submit" id="service-submit">Get an appointment</button></p>
+        <div class="form flex-container">
+            <form class="form-features">
+                <p><input class="input-features input-name" type="text" name="name" placeholder="Name"></p>
+                <p><input class="input-features input-email" type="email" name="email" placeholder="Email" required></p>
+                <p><input class="input-features input-phone" type="phone" name="phone" placeholder="Phone"></p>
+                <p><input class="input-features input-services" type="text" name="service" placeholder="Service You Need"></p>
+                <p><textarea class="input-features input-note" placeholder="Any Note For Us" name="message"></textarea></p>
+                <p class="button-wrapper"><button class="main-button" name="submit" type="submit" id="service-submit">Get an appointment</button></p>
             </form>
         </div>
     </div>
-</div>
+
+</section>
 
 
 <!-- OUR BLOG SECTION -->
 <section class="our-blog">
-    <div class="container">
+    <div class="container flex-container">
         <div class="title">
             <span class="introduction">Our blog</span>
             <h2 class="section-title">Latest Updates</h2>
@@ -377,6 +382,6 @@
                 </div>
             </div>
         </div>
-        <button class="read-more">Get an appointment</button>
+        <button class="read-more">View more stories</button>
     </div>
 </section>

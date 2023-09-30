@@ -8,5 +8,6 @@
     --navDarkGrey: rgba(17, 30, 34, 1);
     --line-light-blue: rgba(155, 183, 191, 1);
     --font-blue: rgba(92, 134, 146, 1);
+    --border-blue: rgba(149, 191, 203, 1);
     --box-shadow: 0 16px 53px 0 rgb(0 0 0 / 44%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
