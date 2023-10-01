@@ -33,16 +33,6 @@
             <a class="main-button" id="scroll-to-form">
                 <img src="../app/logo/calendar.png" alt="calendar icon" />Reservation
             </a>
-            <script>
-                document.getElementById("scroll-to-form").addEventListener("click", function() {
-                    const formElement = document.getElementById("registration-form");
-                    if (formElement) {
-                        formElement.scrollIntoView({
-                            behavior: "smooth"
-                        });
-                    }
-                });
-            </script>
         </div>
     </div>
 </header>

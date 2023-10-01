@@ -105,6 +105,11 @@ section.welcome {
 
 .service img {
     width: 100%;
+    transition: width 0.3s ease-in-out;
+    position: relative;
+    /* Ensure the image is positioned relative to its parent */
+    z-index: 1;
+    /* Set a default z-index value */
 }
 
 .service-description h2 {

@@ -31,6 +31,8 @@ require __DIR__ . '/../app/src/app.php';
   include '../app/views/home-page.php';
   include '../app/views/footer.php';
   ?>
+  <script src="/app/js/scroll-to-form.js"></script>
+  <script src="/app/js/img-size-change.js"></script>
 </body>
 
 </html>

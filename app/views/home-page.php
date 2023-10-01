@@ -26,7 +26,7 @@
     <div class="container flex-container">
         <div class="service">
             <div class="service-image">
-                <img src="../images/home/face-massage.png" alt="face-massage" />
+                <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="../images/home/face-massage.png" alt="face-massage" />
             </div>
             <div class="service-description">
                 <h2>Spa & Massage</h2>
@@ -39,7 +39,7 @@
         </div>
         <div class="service">
             <div class="service-image">
-                <img src="../images/home/hair.png" alt="curly hair" />
+                <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="../images/home/hair.png" alt="curly hair" />
             </div>
             <div class="service-description">
                 <h2>Hair & Beauty</h2>
@@ -52,7 +52,7 @@
         </div>
         <div class="service">
             <div class="service-image">
-                <img src="../images/home/feet.png" alt="feet" />
+                <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="../images/home/feet.png" alt="feet" />
             </div>
             <div class="service-description">
                 <h2>Body Treatments</h2>
@@ -63,6 +63,20 @@
                 <button class="read-more">Read More</button>
             </div>
         </div>
+        <script>
+            function bigImg(x) {
+                x.style.height = "auto";
+                x.style.width = "400px";
+                x.style.zIndex = "2";
+
+            }
+
+            function normalImg(x) {
+                x.style.height = "auto";
+                x.style.width = "100%";
+                x.style.zIndex = "1";
+            }
+        </script>
     </div>
 </section>
 <!-- ABOUT US SECTION -->
