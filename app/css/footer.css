@@ -1,0 +1,103 @@
+footer {
+    background-color: var(--dark-grey);
+    color: white;
+}
+
+.top-section {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-wrapper .main-logo {
+    width: 298px;
+}
+
+.social-media {
+    width: 25%;
+}
+
+ul.social-media-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+li.social-media-icon {
+    list-style: none;
+    width: calc((100% - 15px) / 4);
+    border: solid 1px;
+    border-color: var(--font-blue);
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-icon a {
+    padding: 14px 21px;
+}
+
+.social-media-icon i.bi,
+.social-media-icon .fa-brands {
+    color: white;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.list {
+    width: 25%;
+}
+
+.list li {
+    list-style: none;
+    display: flex;
+}
+
+.list ul {
+    padding: 0;
+}
+
+.list .title {
+    font-family: var(--font-playfair);
+    line-height: 140%;
+    font-size: 22px;
+}
+
+span.content {
+    width: 76%;
+    padding-left: 11px;
+}
+
+span.mail {
+    padding-left: 34px;
+}
+
+span.phone {
+    padding-left: 24px;
+}
+
+.list a,
+.list span,
+.list li {
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-manrope);
+    line-height: 200%;
+    letter-spacing: -1px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.bottom-section {
+    gap: 96px;
+}
+
+div.copyright {
+    text-align: center;
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: -1px;
+    background-color: var(--navDarkGrey);
+    font-weight: 100;
+    padding: 20px 0;
+}

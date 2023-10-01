@@ -283,7 +283,7 @@
     </div>
 </section>
 <!-- FORM SECTION -->
-<section class="form-section">
+<section class="form-section" id="registration-form">
     <div class="container flex-container">
         <div class="left-side">
             <div class="content-wrapper">

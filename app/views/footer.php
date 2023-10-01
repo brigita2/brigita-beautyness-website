@@ -1,8 +1,8 @@
 <footer>
     <div class="container">
-        <div class="top-section">
+        <div class="top-section flex-container">
             <div class="logo-wrapper">
-                <img class="main-logo" src="/../brigita/app/logo/Logo-white.png" alt="page logo">
+                <a href="index.php"> <img class="main-logo" src="/../brigita/app/logo/Logo-white.png" alt="page logo"></a>
             </div>
             <div class="social-media">
                 <ul class="social-media-list">
@@ -13,7 +13,7 @@
                 </ul>
             </div>
         </div>
-        <div class="bottom-section">
+        <div class="bottom-section flex-container">
             <div class="list">
                 <h3 class="title">Explore</h3>
                 <ul>
@@ -29,7 +29,7 @@
                 <h3 class="title">Utility Pages</h3>
                 <ul>
                     <li><a href="index.php">Start here</a></li>
-                    <li><a href="#">Style guide/a></li>
+                    <li><a href="#">Style guide</a></li>
                     <li><a href="#">404 not found</a></li>
                     <li><a href="#">Password protected</a></li>
                     <li><a href="#">Licenses</a></li>
@@ -39,26 +39,31 @@
             <div class="list">
                 <h3 class="title">Keep on Touch</h3>
                 <ul>
-                    <li>Address:
-                        <ul>
-                            <li>24A Kingston St, Los Vegas NC 28202, USA.</li>
-                        </ul>
+                    <li>
+                        <span class="label">Address:</span>
+                        <span class="content">24A Kingston St, Los Vegas NC 28202, USA.</span>
                     </li>
-                    <li>Mail:
-                        <ul>
-                            <li><a href="mailto:support@doctors.com">support@doctors.com</a></li>
-                        </ul>
+                    <li>
+                        <span class="label">Mail:</span>
+                        <span class="content mail">support@doctors.com</span>
                     </li>
-                    <li>Phone:
-                        <ul>
-                            <li><a href="tel:(+22) 123 - 4567 - 900">(+22) 123 - 4567 - 900</a></li>
-                        </ul>
+                    <li>
+                        <span class="label">Phone:</span>
+                        <span class="content phone">(+22) 123 - 4567 - 900</span>
                     </li>
                 </ul>
             </div>
+            <div class="list">
+                <h3 class="title">Working Hours</h3>
+                <ul>
+                    <li>Mon to Fri: 7am - 6pm</li>
+                    <li>Sat: 9am - 7pm</li>
+                    <li>Sun: 9am - 6pm</li>
+                </ul>
+            </div>
         </div>
-        <div class="copyright">
-            &copy; Copyright <?php echo date("Y"); ?>. Drafted by Victor Themes.
-        </div>
+    </div>
+    <div class="copyright">
+        &copy; Copyright <?php echo date("Y"); ?>. Drafted by Victor Themes.
     </div>
 </footer>

@@ -20,6 +20,8 @@ require __DIR__ . '/../app/src/app.php';
   <link rel="stylesheet" href="../app/css/variables.css" />
   <link rel="stylesheet" href="../app/css/header.css">
   <link rel="stylesheet" href="../app/css/home-page.css">
+  <link rel="stylesheet" href="../app/css/footer.css">
+
 
 </head>
 

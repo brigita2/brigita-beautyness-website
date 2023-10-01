@@ -3,7 +3,7 @@
         <!-- header left side -->
         <div class="logo-wrapper flex-container">
             <div>
-                <a href="index.html"><img class="main-logo" src="../app/logo/Logo-black.png" alt="Beautyness logo" /></a>
+                <a href="index.php"><img class="main-logo" src="../app/logo/Logo-black.png" alt="Beautyness logo" /></a>
             </div>
             <div class="call-us">
                 <a href="tel:+221234567890"><img src="../app/logo/phone.png" alt="phone icon" />Call Us-
@@ -30,9 +30,19 @@
                     </li>
                 </ul>
             </nav>
-            <a class="main-button">
+            <a class="main-button" id="scroll-to-form">
                 <img src="../app/logo/calendar.png" alt="calendar icon" />Reservation
             </a>
+            <script>
+                document.getElementById("scroll-to-form").addEventListener("click", function() {
+                    const formElement = document.getElementById("registration-form");
+                    if (formElement) {
+                        formElement.scrollIntoView({
+                            behavior: "smooth"
+                        });
+                    }
+                });
+            </script>
         </div>
     </div>
 </header>
