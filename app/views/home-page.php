@@ -323,7 +323,7 @@
             </div>
         </div>
         <div class="form flex-container">
-            <form class="form-features">
+            <form class="form-features" action="index.php" method="post">
                 <p><input class="input-features input-name" type="text" name="name" placeholder="Name"></p>
                 <p><input class="input-features input-email" type="email" name="email" placeholder="Email" required></p>
                 <p><input class="input-features input-phone" type="phone" name="phone" placeholder="Phone"></p>
