@@ -21,8 +21,10 @@ require __DIR__ . '/../app/src/app.php';
   <link rel="stylesheet" href="../app/css/header.css">
   <link rel="stylesheet" href="../app/css/home-page.css">
   <link rel="stylesheet" href="../app/css/footer.css">
-
-
+  <link rel="stylesheet" href="../app/css/responsive-design.css">
+  <script src="/../brigita/app/js/nav-mobile.js" defer></script>
+  <script src="/../brigita/app/js/scroll-to-form.js" defer></script>
+  <script src="/../brigita/app/js/img-size-change.js" defer></script>
 </head>
 
 <body>
@@ -30,9 +32,9 @@ require __DIR__ . '/../app/src/app.php';
   include '../app/views/header.php';
   include '../app/views/home-page.php';
   include '../app/views/footer.php';
+
   ?>
-  <script src="/app/js/scroll-to-form.js"></script>
-  <script src="/app/js/img-size-change.js"></script>
+
 </body>
 
 </html>

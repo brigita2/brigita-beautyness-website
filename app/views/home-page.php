@@ -65,16 +65,19 @@
         </div>
         <script>
             function bigImg(x) {
-                x.style.height = "auto";
-                x.style.width = "400px";
-                x.style.zIndex = "2";
-
+                if (window.innerWidth >= 1000) {
+                    x.style.height = "auto";
+                    x.style.width = "400px";
+                    x.style.zIndex = "2";
+                }
             }
 
             function normalImg(x) {
-                x.style.height = "auto";
-                x.style.width = "100%";
-                x.style.zIndex = "1";
+                if (window.innerWidth >= 1000) {
+                    x.style.height = "auto";
+                    x.style.width = "100%";
+                    x.style.zIndex = "1";
+                }
             }
         </script>
     </div>
@@ -122,7 +125,7 @@
             <span class="introduction">Our Services</span>
             <h2 class="section-title">We are Experienced in making you very Beautiful</h2>
         </div>
-        <div class="services-top flex-container">
+        <div class="services-top">
             <div class="image-wrapper">
                 <img class="services-image" src="/../brigita/images/services/relax.jpg" alt="Two girls relaxing at spa">
             </div>
@@ -167,7 +170,7 @@
             </div>
         </div>
 
-        <div class="services-bottom flex-container">
+        <div class="services-bottom">
             <div class="price-list">
                 <div class="one-service">
                     <div class="service-wrapper">
@@ -345,6 +348,7 @@
                 <p><textarea class="input-features input-note" placeholder="Any Note For Us" name="message"></textarea></p>
                 <p class="button-wrapper"><button class="main-button" name="submit" type="submit" id="service-submit">Get an appointment</button></p>
             </form>
+
         </div>
     </div>
 

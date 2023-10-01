@@ -107,9 +107,7 @@ section.welcome {
     width: 100%;
     transition: width 0.3s ease-in-out;
     position: relative;
-    /* Ensure the image is positioned relative to its parent */
     z-index: 1;
-    /* Set a default z-index value */
 }
 
 .service-description h2 {
@@ -136,12 +134,12 @@ section.welcome {
     line-height: 125%;
     letter-spacing: 2px;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 .read-more:hover {
     color: white;
     background-color: var(--button-blue);
-    transition: background-color 1s;
 }
 
 /* ABOUT US SECTION */
@@ -215,11 +213,14 @@ section.our-services .container {
 
 .our-services .container .title {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .our-services .title h2.section-title {
     padding: 13px 0px 27px 0;
-    margin: 0px 356px;
+    width: 50%;
 }
 
 .services-image {
@@ -227,7 +228,7 @@ section.our-services .container {
 }
 
 .price-list {
-    width: 50%;
+    width: 100%;
 }
 
 .one-service p {
@@ -282,7 +283,7 @@ section.our-services .container {
 }
 
 .image-wrapper {
-    width: 50%;
+    width: 100%;
 }
 
 img.services-image {
@@ -303,8 +304,18 @@ img.services-image {
     padding: 20px 38px;
 }
 
+.services-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .services-top .price-list {
     padding-left: 25px;
+}
+
+.services-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .services-bottom .price-list {

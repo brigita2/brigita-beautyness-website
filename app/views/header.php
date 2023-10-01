@@ -12,23 +12,29 @@
         </div>
         <!-- header right side -->
         <div class="nav-wrapper flex-container">
-            <nav class="main-nav">
-                <ul class="flex-container">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <nav class="main-nav navbar">
+                <ul class="nav-menu flex-container">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
                     </li>
-                    <li>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
                     </li>
-                    <li>
-                        <a href="#"><img src="../app/logo/instagram-black.png" alt="" /></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="../app/logo/instagram-black.png" alt="" /></a>
                     </li>
                 </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
             <a class="main-button" id="scroll-to-form">
                 <img src="../app/logo/calendar.png" alt="calendar icon" />Reservation
