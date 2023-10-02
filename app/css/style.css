@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .site-header {
     background-color: #fff;
     position: fixed;

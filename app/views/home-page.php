@@ -10,7 +10,7 @@
                     There are many variation of passages are Ipsum available, majority
                     have suffered alteration in some form.
                 </p>
-                <a class="main-button" href="#">Make a reservation</a>
+                <a class="main-button" href="#registration-form">Make a reservation</a>
             </div>
         </div>
 
