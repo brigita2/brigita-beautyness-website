@@ -93,9 +93,11 @@
     .image-wrapper {
         margin-top: 20px;
     }
-}
 
-@media all and (max-width:1220px) {
+    .benefits-wrapper {
+        grid-template-columns: 1fr 1fr;
+        margin: 0 30px;
+    }
 
     /* WELCOME SECTION */
     section.welcome {
@@ -126,9 +128,10 @@
     }
 
     .services .container {
-        margin: 120px 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin: 120px 0;
+        justify-items: center;
     }
 
     .service {
@@ -146,6 +149,47 @@
     .services-top,
     .services-bottom {
         padding: 0px 20px 66px 20px;
+    }
+
+    /* FORM SECTION */
+    .form-section .container {
+        gap: 0;
+        padding-left: 20px;
+    }
+
+    /* OUR BLOG SECTION */
+    .our-blog .container {
+        padding: 80px 0;
+    }
+
+    .blog-wrapper {
+        gap: 20px;
+        margin: 0 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .blog {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    footer .container {
+        padding: 0 30px;
+    }
+
+    li.social-media-icon {
+        min-width: 49px;
+    }
+
+    .top-section {
+        padding-right: 30px;
+    }
+}
+
+@media all and (max-width:930px) {
+    .blog-wrapper {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -171,9 +215,52 @@
     .picture-right {
         width: 70%;
     }
+
+    /* FORM SECTION */
+    .form-section .container {
+        flex-direction: column;
+    }
+
+    .form-section .left-side {
+        width: 100%;
+    }
+
+    .form-section .form {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* FOOTER */
+    .bottom-section.flex-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bottom-section.flex-container .list {
+        width: 100%;
+    }
+
+    .bottom-section {
+        gap: 0px;
+    }
+
 }
 
 @media all and (max-width:700px) {
+    header.site-header {
+        max-height: 70px;
+    }
+
+    .logo-wrapper .main-logo {
+        width: 230px;
+    }
+
     div.call-us {
         position: fixed;
         bottom: 0;
@@ -185,5 +272,59 @@
         padding: 11px 15px;
         border: solid 1px;
         border-color: var(--button-blue);
+    }
+
+    .testimonials-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-card.flex-container {
+        width: 80%;
+    }
+}
+
+@media all and (max-width:700px) {
+    .services .container {
+        grid-template-columns: 1fr;
+        margin: 60px 0;
+        justify-items: center;
+
+    }
+
+    .service {
+        text-align: center;
+    }
+
+    .top-section {
+        padding-right: 57px;
+    }
+}
+
+@media all and (max-width:635px) {
+    .blog-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .bottom-section.flex-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (max-width:550px) {
+    .benefits-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .benefit {
+        text-align: center;
+    }
+
+    .top-section.flex-container {
+        flex-direction: column;
+    }
+
+    .top-section img.main-logo {
+        padding-bottom: 0px;
     }
 }
