@@ -116,7 +116,7 @@
                 <div class="one-service">
                     <div class="service-wrapper">
                         <p>Face masks</p>
-                        <div class="dot"></div>
+                        <div class="dot hide"></div>
                         <div class="from">from</div>
                         <div class="price">$48.00</div>
                     </div>
@@ -125,7 +125,7 @@
                 <div class="one-service">
                     <div class="service-wrapper body-massage">
                         <p>Full body massage</p>
-                        <div class="dot"></div>
+                        <div class="dot hide"></div>
                         <div class="from">from</div>
                         <div class="price">$54.00</div>
                     </div>
@@ -134,7 +134,7 @@
                 <div class="one-service">
                     <div class="service-wrapper geothermal">
                         <p>Geothermal spa</p>
-                        <div class="dot"></div>
+                        <div class="dot hide"></div>
                         <div class="from">from</div>
                         <div class="price">$54.00</div>
                     </div>
@@ -143,13 +143,13 @@
                 <div class="one-service">
                     <div class="service-wrapper">
                         <p>Sauna relax</p>
-                        <div class="dot"></div>
+                        <div class="dot hide"></div>
                         <div class="from">from</div>
                         <div class="price">$73.00</div>
                     </div>
                     <span>The version have evolved over the sometimes by accident.</span>
                 </div>
-                <button class="read-more">Get an appointment</button>
+                <button class="read-more hide">Get an appointment</button>
             </div>
         </div>
 
@@ -158,7 +158,7 @@
                 <div class="one-service">
                     <div class="service-wrapper">
                         <p>Face masks</p>
-                        <div class="dot"></div>
+                        <div class="dot hide"></div>
                         <div class="from">from</div>
                         <div class="price">$48.00</div>
                     </div>
@@ -167,7 +167,7 @@
                 <div class="one-service">
                     <div class="service-wrapper body-massage">
                         <p>Full body massage</p>
-                        <div class="dot"></div>
+                        <div class="dot hide"></div>
                         <div class="from">from</div>
                         <div class="price">$54.00</div>
                     </div>
@@ -176,7 +176,7 @@
                 <div class="one-service">
                     <div class="service-wrapper geothermal">
                         <p>Geothermal spa</p>
-                        <div class="dot"></div>
+                        <div class="dot hide"></div>
                         <div class="from">from</div>
                         <div class="price">$54.00</div>
                     </div>
@@ -185,7 +185,7 @@
                 <div class="one-service">
                     <div class="service-wrapper">
                         <p>Sauna relax</p>
-                        <div class="dot"></div>
+                        <div class="dot hide"></div>
                         <div class="from">from</div>
                         <div class="price">$73.00</div>
                     </div>

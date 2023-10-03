@@ -12,6 +12,11 @@ html {
     scroll-behavior: smooth;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 .site-header {
     background-color: #fff;
     position: fixed;
